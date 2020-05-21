@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Halaman Web</title>
+    </head>
+    <body>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+                font-family: sans-serif;
+                background-color: #f4f4f4;
+            
+            }
+            .container{
+                width: 90%;
+                margin: auto;
+                overflow: hidden;
+            }
+
+            header{
+                background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("tree.jpg");
+                height: 15vh;
+                background-size: cover;
+                background-position: center;
+                padding-top: 30px;
+                min-height: 70px;
+            }
+
+            header #branding{
+                float: left;
+            }
+            header #branding h1{
+                color: white;
+                margin-top: 12px;
+                padding: 0;
+            }    
+            header nav{
+                float: right;
+                margin-top: 10px;
+            }
+
+            header li{
+                display: inline-block;
+                padding: 10px 10px;
+            }
+
+            header a{
+                font-size: 16px;
+                color: white;
+                text-decoration: none;
+                border: 1px solid transparent;
+                padding: 10px 20px;
+            }
+
+            ul{
+                list-style-type: none;
+                float: right;
+                margin-top: 3px;
+            }
+
+            header .active a{
+                background-color: white;
+                color: #000000;
+                font-weight: bold;
+            }
+             
+            header a:hover{
+                background-color: white;
+                color: #000000;
+                transition: 0.3s;
+            }
+
+            #showcase{
+                min-height: 400px;
+                background : url(4k.jpg) no-repeat 0px -70px;
+                background-color: black;
+                background-size: 1400px;
+                text-align: center;
+                color: white;
+            }
+            
+            #showcase h1{
+                margin-top: 60px;
+                font-size: 55px;
+                margin-bottom: 10px;
+                text-shadow: 2px 2px 5px blueviolet;
+            }
+            #showcase h3{
+                text-align: left;
+            }
+            #showcase ol{
+                font-size: 18px;
+                text-align: left;
+                word-spacing: 3px;
+            }
+            #showcase p{
+                text-align: left;
+                font-size: 18px;
+            }
+            #showcase .container img{
+                padding-top: 10px;
+                width: 100px;
+            }
+            #newsletter{
+                padding: 25px;
+                color: white;
+                background: linear-gradient(to right, #000000, #000080);
+            }
+            #newsletter h1{
+                font-size: 23px;
+                float: left;
+                margin-top: 12px;
+            }
+            #newsletter form{
+                float: right;
+                margin-top: 5px;
+            }
+            #newsletter input[type="text"]{
+                padding: 4px;
+                height: 25px;
+                width: 250px;
+            }
+            .buttonsearch{
+                height: 38px;
+                background-color: #960083;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: 0;
+                color: white;
+            }
+            #boxes{
+                margin-top: 20px;
+            }
+            #boxes .box{
+                float: left;
+                text-align: center;
+                width: 30%;
+                padding: 10px;
+            }
+            #boxes .box h3{
+                font-size: 18px;
+                padding: 10px;
+            }
+            #boxes .box h3 a{
+                text-decoration: none;
+                color: black;
+            }
+            #boxes .box h3 a:hover{
+                color: #000080;
+            }
+            #boxes .box img{
+                width: 100px;
+            }
+            footer{
+                font-family: tahoma;
+                padding: 20px;
+                margin-top: 20px;
+                color: white;
+                background: linear-gradient(to right, #000000, #000080);
+                text-align: center;
+            }
+            /*Media Query*/
+            @media(max-width: 770px){
+                header #branding,
+                header nav,
+                header nav ul,
+                #newsletter h1,
+                #newsletter form,
+                #boxes .box
+                {
+                    float: none;
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        </style>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1>Profesional Editor</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="Kontak.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="showcase">
+            <div class="container">
+                <h1>Illustrator Vector Editor</h1>
+                <img src="logo3.png">
+                <h2>
+                    Pengertian dan Kelebihan Adobe Illustrator
+                </h2>
+                    <p>
+                        Adobe Illustrator atau bisa disebut AI, merupakan software desain grafis yang dikembangkan oleh perusahaan ternama, Adobe, yang menyasar segmen menengah-keatas. Kira-kira kemampuannya boleh disejajarkan dengan Coreldraw dari sisi fitur meskipun platform penggunaan dari keduanya berbeda, AI lebih diperuntukkan untuk desain grafis yang bersifat abstak, photo-retouching, dan professional editing on-fly, Coreldraw lebih ditujukan untuk desain dan rancang bangun objek 2D dan vektor.
+                    </p>
+                    <h3>Terintegrasi dengan produk Adobe yang lain sebagai Adobe Creative Suite</h3>
+                    <p>
+                        Kelebihan adobe illustrator yang pertama adalah, aplikasi ini memiliki kelebihan dalam hal sifatnya yang terintgerasi dengan banyak poduk adobe dalam satu kesatuanya yang dinamakan adobe creative suite. Hal ini berarti, beberapa fitur adobe illstrator terintegrasi dengan fitur pada aplikasi adobe yang lain, fleksibel pada berbagai aplikasi adobe lainnya seperti Adobe Photoshop, Adobe Lightroom, Adobe After Effect, Adobe Bridge, dan berbagai produk Adobe lainnya.
+                    </p>
+                    <h3>Memiliki kualitas gambar yang tajam</h3>
+                    <p>
+                        Mengingat adobe illustrator merupakan soffware grafis vektor, maka akan ada perbedaan dengan software grafis berjenis piksel seperti adobe photoshop dimana kualitas gambar yang dihasilkan lebih tajam.
+                        Sehingga bisa dikatakan, adobe illustrator memiliki kualitas gambar yang lebih tajam dibandingkan dengan adobe photoshop, meski demikian, mirip fungsi photoshop lightroom, software vektor umumnya membutuhkan waktu pengerjaan yang lebih lama dibandingkan dengan software piksel sejenis adobe photoshop seperti telah disebutkan sebelumnya. Dari sisi kepraktisan, tentunya software lain sejenis seperti photoshop agaknya mempunyai nilai yang lebih baik dibandingkan dengan adobs illustrator ini. Meski demikian, tak mengurangi peminat grafis untuk menggunakan aplikasi AI ini.
+                    </p>
+                    <h3>Pilihan yang tepat untuk menggambar ilustrasi dan kartun</h3>
+                    <p>
+                        Salah satu kegunaan yang paling menonjol di software AI adalah pembuatan ilustrasi, selain itu juga drop shadow yang diberikannya cukup baik dan apik. Sehingga mampu menciptakan desain ilustrasi dan kartun yang terlihat lebih maksimal.
+                    </p>
+                    <h3>Dapat menangani file berukuran besar</h3>
+                    <p>
+                        Salah satu kelebihan dari aplikasi design grafis ini adalah mampu menangani file RAW berukuran besar, selain aplikasi tetap berjalan dengan stabil. Selain itu juga aplikasi tetap mampu menangani dengan baik proses rendering yang ada. Selain itu juga tidak mempengaruhi kualitas RAW yang di render. Adobe Illustrator memang dioptimasikan untuk penggunaan high-end dimana kebutuhan akan processig dan rendering huge file berkualitas tinggi sangat dibutuhkan.
+                    </p>
+                    <h3>Mampu mencetak print out beresolusi</h3>
+                    <p>
+                        Kelebihan adobe illustrator yang kelimat adalah fitur print out yang dihasilkan oleh software grafis yang satu ini bisa dibilang sangat baik, mirip dengan salah satu kelebihan dan kekurangan coreldraw. Selain itu juga software grafis ini mampu mencetak gambar yang memiliki resolusi tinggi tanpa khawatir kehilangan resolusi gambar atau loss-resolution pada saat proses print out terjadi.
+                    </p>
+                    <h3>Mampu menampilkan grafis print out dengan baik</h3>
+                    <p>
+                        Adobe Illustrator dioptimasikan dalam hal grafis, dimana output gang berupa print out dj AI sendiri bisa dibilang memiliki kualitas yang baik hampir mendekati tampilan di layar monitor atau LCD saat di edit. Hal ini sama seperti true type font dalam tipoGrafi Windows yang mana tampilan saat di print out sama dengan tampilan di layar saat diketik.
+                    </p>
+                    <h3>Penggunaan yang user friendly bahkan untuk pemula</h3>
+                    <p>
+                        Aplikasi AI ini dikenal memiliki tampilan user interface serta penggunaan yang user friendly. Artinya untuk pemula sekalipun, aplikasi ini mudah untuk digunakan dan dioperasikan. Dengan menu dan toolbarnya yang tidak terkesan membuat ribet, aplikasi ini menawarkan interface sederhana dan intuitif.
+                    </p>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="container">
+                <h1> Cari apa yang anda butuhkan </h1>
+                <form>
+                    <input type="text" placeholder="Ketik disini...">
+                    <button class="buttonsearch">Cari</button> 
+                </form>
+            </div>
+        </section>
+
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="logo1.png">
+                    <h3><a href="photoshop.html" > Photoshop Photo Editor </a></h3>
+                    <p> 
+                        Adobe Photoshop, atau biasa disebut Photoshop, adalah perangkat lunak editor citra buatan Adobe Systems yang dikhususkan untuk pengeditan foto/gambar dan pembuatan efek.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="logo2.png">
+                    <h3> <a href="premiere.html"> Premiere Video Editor </a></h3>
+                    <p> 
+                        Adobe Premiere Pro merupakan program pengolah video pilihan bagi kalangan profesional, terutama yang suka bereksperimen. Program ini banyak digunakan oleh perusahaan Pembuatan Film/Sinetron, Broadcasting, dan Pertelevisian.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="logo3.png">
+                    <h3> <a href="illustrator.html" >Illustrator Vector Editor</a> </h3>
+                    <p> 
+                        Adobe Illustrator (AI) adalah program aplikasi editor desain grafis vektor yang dikembangkan dan dipasarkan oleh Adobe. Illustrator merupakan aplikasi vektor yang sangat populer di kalangan desainer grafis.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        <p>
+            Profesional Editor, Copyright @2020.
+        </p>
+    </footer>
+</html>

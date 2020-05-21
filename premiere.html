@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Halaman Web</title>
+    </head>
+    <body>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-size: 16px;
+                font-family: sans-serif;
+                background-color: #f4f4f4;
+            
+            }
+            .container{
+                width: 90%;
+                margin: auto;
+                overflow: hidden;
+            }
+
+            header{
+                background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("tree.jpg");
+                height: 15vh;
+                background-size: cover;
+                background-position: center;
+                padding-top: 30px;
+                min-height: 70px;
+            }
+
+            header #branding{
+                float: left;
+            }
+            header #branding h1{
+                color: white;
+                margin-top: 12px;
+                padding: 0;
+            }    
+            header nav{
+                float: right;
+                margin-top: 10px;
+            }
+
+            header li{
+                display: inline-block;
+                padding: 10px 10px;
+            }
+
+            header a{
+                font-size: 16px;
+                color: white;
+                text-decoration: none;
+                border: 1px solid transparent;
+                padding: 10px 20px;
+            }
+
+            ul{
+                list-style-type: none;
+                float: right;
+                margin-top: 3px;
+            }
+
+            header .active a{
+                background-color: white;
+                color: #000000;
+                font-weight: bold;
+            }
+             
+            header a:hover{
+                background-color: white;
+                color: #000000;
+                transition: 0.3s;
+            }
+
+            #showcase{
+                min-height: 400px;
+                background : url(4k.jpg) no-repeat 0px -70px;
+                background-color: black;
+                background-size: 1400px;
+                text-align: center;
+                color: white;
+            }
+            
+            #showcase h1{
+                margin-top: 60px;
+                font-size: 55px;
+                margin-bottom: 10px;
+                text-shadow: 2px 2px 5px blueviolet;
+            }
+            #showcase h3{
+                text-align: left;
+            }
+            #showcase ol{
+                font-size: 18px;
+                text-align: left;
+                word-spacing: 3px;
+            }
+            #showcase p{
+                text-align: left;
+                font-size: 18px;
+            }
+            #showcase .container img{
+                padding-top: 10px;
+                width: 100px;
+            }
+            #newsletter{
+                padding: 25px;
+                color: white;
+                background: linear-gradient(to right, #000000, #000080);
+            }
+            #newsletter h1{
+                font-size: 23px;
+                float: left;
+                margin-top: 12px;
+            }
+            #newsletter form{
+                float: right;
+                margin-top: 5px;
+            }
+            #newsletter input[type="text"]{
+                padding: 4px;
+                height: 25px;
+                width: 250px;
+            }
+            .buttonsearch{
+                height: 38px;
+                background-color: #960083;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: 0;
+                color: white;
+            }
+            #boxes{
+                margin-top: 20px;
+            }
+            #boxes .box{
+                float: left;
+                text-align: center;
+                width: 30%;
+                padding: 10px;
+            }
+            #boxes .box h3{
+                font-size: 18px;
+                padding: 10px;
+            }
+            #boxes .box h3 a{
+                text-decoration: none;
+                color: black;
+            }
+            #boxes .box h3 a:hover{
+                color: #000080;
+            }
+            #boxes .box img{
+                width: 100px;
+            }
+            footer{
+                font-family: tahoma;
+                padding: 20px;
+                margin-top: 20px;
+                color: white;
+                background: linear-gradient(to right, #000000, #000080);
+                text-align: center;
+            }
+            /*Media Query*/
+            @media(max-width: 770px){
+                header #branding,
+                header nav,
+                header nav ul,
+                #newsletter h1,
+                #newsletter form,
+                #boxes .box
+                {
+                    float: none;
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        </style>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1>Profesional Editor</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="Kontak.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="showcase">
+            <div class="container">
+                <h1>Premiere Video Editor</h1>
+                <img src="logo2.png">
+                    <p>
+                        Adobe premiere merupakan salah satu aplikasi yang bisa digunakan untuk proses editing video. Selain itu, program ini juga digunakan oleh para profesional untuk mengolah video mereka yang pastinya bisa menampung ide kreativitas dan disalurkan dengan membuat video. caranya yaiku sebagai berikut.
+                    </p>
+                    <h3>Membuka Lembar Baru Adobe Premier</h3>
+                    <ol class="list">
+                    <li>
+                        Layaknya menggunakan program-program lainnya yang ada dikomputer. Membuka lembar baru Adobe Premier juga cukup mudah. Kalian tentunya sudah pernah membuka program-program seperti Microsoft word, Microsoft PowerPoint, Corel Draw, dan lain sebagainya, langkah dalam membuka program editing video ini juga tidak jauh berbeda dengan cara membuka program-program yang saya sebutkan tadi. Ikuti langkah berikut untuk membuka lembar kerja baru di Adobe Premier.
+                    </li>
+                    <li>
+                        Buka Aplikasi Adobe Premier Pro. yang pasti, kamu harus mempunyai aplikasi Adobe Premier Pro terlebih dahulu bila ingin menggunakannya.
+                    </li>
+                    <li>
+                        Setelah aplikasi terbuka, Klik Menu "New Project". Pilihan new project ini digunakan untuk membuat proyek baru untuk memulai proses editing kalian. Selain menu new project juga terdapat menu Open Project yang digunakan untuk melanjutkan hasil editing video yang sebelumnya telah kita buat atau kerjakan.
+                    </li>
+                    <li>
+                        Ganti Nama Project di Menu General. Setelah kalian klik new project munculah tampilan menu General, pada bagian ini ganti nama project karya video kamu pada kolom name dan atur lokasi penyimpanan supaya file karyamu mudah ditemukan.
+                    </li>
+                    <li>
+                        Klik Menu Scratch Disk untuk Mengatur Lokasi Penyimpanan. Pada menu tersebut yang terletak disebelah menu General atur lokasi penyimpanan yang diinginkan. Di menu Acratch Disk itu terdiri dari empat opsi atau pilihan yang terdiri dari berikut ini : Captured Video, Captured Audio, Video previews, dan audio previews ganti lokasi penyimpanan dengan mengklik tombol "Browse" untuk nempatin pada folder yang dipilih untuk menyimpan hasil editing video.
+                    </li>
+                    <li>
+                        Setelah mengganti nama pada menu general dan mengubah lokasi penyimpanan pada Scractch Disk, kemudian klik OK.
+                    </li>
+                    <li>
+                        Kita lanjut pada langkah selanjutnya setelah kita klik OK, akan muncul kotak dialog lagi. Pada tahap ini kita hanya perlu mengubah nama video yang diinginkan pada kolom Sequence Name. Projectpun siap digunakan untuk proses editing.
+                    </li>
+                    </ol>
+                    <h3>Mengimport Foto, Video, dan Audio</h3>
+                    <p>
+                        Setelah berhasil buat lembar kerja atau project baru di Adobe Premier Pro, yang pasti kamu ingin segera berkreasi gunain dan ngisi lembar kerja tersebut iya kan. Kamu bisa mulai lembar kerjamu dengan cara masukin gambar, musik, atau konten lainnya ke dalam lembar kerja. Proses ini disebut dengan ngimport media, kamu bisa ngikuti langkah-langkah di bawah untuk ngimport media ke dalam projectmu:
+                    </p>
+                    <ol class="list">
+                        <li>
+                            Klik kanan pada lembar kerja projectmu, lalu klik import.
+                        </li>
+                        <li>
+                            Setelah kamu klik pilihan Import nanti akan nampilin dialog, yang mana kamu bisa milih jenis media apa aja yang kamu ingin masukan dalam projectmu.
+                        </li>
+                        <li>
+                            Pilih media apapun saja yang kamu inginkan seperti foto, audio, dan video. Setelah kamu telah nentuin pilihan konten yang akan kamu import, langkah selanjutnya itu klik OK.
+                        </li>
+                        <li>
+                            Setelah itu otomatis konten media akan masuk ke dalam lembar projetmu.
+                        </li>
+                        <li>
+                            Selanjutnya kamu tinggal ndrag dan naruh media yang kamu import tadi ke dalam lembar editing video.                         
+                        </li>
+                        <li>
+                            Proses import mediapun telah selesai dilakukan.
+                        </li>
+                    </ol>
+                    <h3>Memotong Durasi Video</h3>
+                    <p>
+                        Editing video merupakan proses ngedit suatu video agar sesuai dengan konsep awal pembuatan video. Selama proses pengambilan video tentu tidak semua hasil rekamannya bagus, ada video yang durasinya terlalu lama dan diluar konsep kita. Disinilah kita harus motong videoem agar tidak ngganggu kelancaran adegan lain yang telah dikonsepin dengan cara milih menu tools razor pada Panel Tools, atau teken tombol C pada keyboard, dan tentuin daerah yang ingin dipotong. Potong pada daerah yang ingin dipotong, hasilnya video akan menjadi dua bagian.
+                    </p>
+                    <h3>Cara Menghapus Video</h3>
+                    <p>
+                        Tidak semua hasil rekaman video memuaskan dan bagus. Oleh karenanya kita harus menghapus rekaman video yang mempunyai kualitas buruk dengan cara klik kanan pada bagian video yang ingin dihapus kemudian pilih clear. Bagian yang tidak ingin ditampilkanpun sukses terhapus dari video.
+                    </p>
+                    <h3>Memberi Teks Video</h3>
+                    <p>
+                        Video akan lebih mudah dipahamin bila editor nyediain teks didalamnya sehingga penonton bisa lebih mahami dan mendalami isi video yang disampain. Cara menyisipin teks dalam videopun juga cukup mudah, yaitu:
+                    </p>
+                    <ol class="list">
+                        <li>
+                            Memilih menu title di Top Menu.
+                        </li>
+                    </ol>
+                    <h3>Memberi Efek Transisi</h3>
+                    <p>
+                        Efek transisi digunain untuk mempercantik video yang bisa dilakuin dengan cara Klik menu Effect, dan milih video transition. Kemudian milih jenis effect yang diinginkan dan drag pada video yang akan diberi efek transisi.
+                    </p>
+                    <h3>Me-Render Video</h3>
+                    <p>
+                        Render merupakan tahap akhir dalam editing video dan bisa mengaruhi kualitas video saat dieksport. Kita bisa ngerender hasil editing dengan cara klik menu Sequence di Top Menu, lalu pilih render effect in work area. Hasil editingpun berhasil kalian render.
+                    </p>
+            </div>
+        </section>
+
+        <section id="newsletter">
+            <div class="container">
+                <h1> Cari apa yang anda butuhkan </h1>
+                <form>
+                    <input type="text" placeholder="Ketik disini...">
+                    <button class="buttonsearch">Cari</button> 
+                </form>
+            </div>
+        </section>
+
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="logo1.png">
+                    <h3><a href="photoshop.html" > Photoshop Photo Editor </a></h3>
+                    <p> 
+                        Adobe Photoshop, atau biasa disebut Photoshop, adalah perangkat lunak editor citra buatan Adobe Systems yang dikhususkan untuk pengeditan foto/gambar dan pembuatan efek.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="logo2.png">
+                    <h3> <a href="premiere.html"> Premiere Video Editor </a></h3>
+                    <p> 
+                        Adobe Premiere Pro merupakan program pengolah video pilihan bagi kalangan profesional, terutama yang suka bereksperimen. Program ini banyak digunakan oleh perusahaan Pembuatan Film/Sinetron, Broadcasting, dan Pertelevisian.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="logo3.png">
+                    <h3> <a href="illustrator.html" >Illustrator Vector Editor</a> </h3>
+                    <p> 
+                        Adobe Illustrator (AI) adalah program aplikasi editor desain grafis vektor yang dikembangkan dan dipasarkan oleh Adobe. Illustrator merupakan aplikasi vektor yang sangat populer di kalangan desainer grafis.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        <p>
+            Profesional Editor, Copyright @2020.
+        </p>
+    </footer>
+</html>
